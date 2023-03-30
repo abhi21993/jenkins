@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven "MAVEN3"
-        jdk "OracleJDK8"
+        maven "maven-3"
+        jdk "java-11"
     } 
 
     environment {
